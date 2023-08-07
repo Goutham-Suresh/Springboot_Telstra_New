@@ -11,7 +11,7 @@ public class EmployeeTest {
 	@Test
 	public void getSalaryTest() {
 		Employee employee = new Employee(1001, "Ram", "Manager", 50000);
-		assertEquals(50000, employee.getSalary());
+		assertEquals(5000, employee.getSalary());
 	}
 
 	@Test
