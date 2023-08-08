@@ -10,7 +10,7 @@ public class EmployeeTest {
 	
 	@Test
 	public void getSalaryTest() {
-		Employee employee = new Employee(1001, "Ram", "Manager", 50000);
+		Employee employee = new Employee(1001, "Ram", "Manager", 5000);
 		assertEquals(5000, employee.getSalary());
 	}
 
